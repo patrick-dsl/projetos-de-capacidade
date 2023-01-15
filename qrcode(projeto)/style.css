@@ -8,10 +8,11 @@ body {
   background-color: rgba(127, 174, 255, 0.275);
   display: flex;
   justify-content: center;
+  height: 100vh;
+  align-items: center;
 }
 
 .caixa-azul {
-  margin-top: 200px;
   display: flex;
   flex-direction: column;
   background-color: white;
