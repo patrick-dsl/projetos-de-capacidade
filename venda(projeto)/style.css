@@ -97,7 +97,7 @@ body {
     flex-direction: column;
   }
   .caixa-1{
-    background-position: center;
+    background-position: left center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(images/image-product-mobile.jpg);
