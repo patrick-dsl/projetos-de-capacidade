@@ -43,6 +43,7 @@ body {
   color: #94969b;
   font-size: 1em;
   font-family: var(--font1);
+  margin-top: 30px;
 }
 .titulo {
   width: 300px;
