@@ -71,6 +71,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  flex: 1;
 }
 .plan-type {
   font-family: var(--font-padrao);
@@ -85,7 +86,6 @@ body {
   font-size: 0.8em;
   font-weight: 700;
   color: rgb(9, 9, 215);
-  margin-left: 50px;
   cursor: pointer;
 }
 .buttons {
@@ -127,9 +127,9 @@ body {
   scale: 101%;
 }
 @media (max-width: 500px) {
-    body{
-        background-image: url(images/pattern-background-mobile.svg);
-    }
+  body {
+    background-image: url(images/pattern-background-mobile.svg);
+  }
   .image {
     width: 350px;
     background-size: contain;
