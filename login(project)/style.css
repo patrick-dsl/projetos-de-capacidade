@@ -1,0 +1,141 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9bbce8;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+}
+main {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  border-radius: 0px 0px 20px 20px;
+  width: 350px;
+}
+
+.image {
+  background-image: url(images/image-card.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 350px;
+  height: 130px;
+  border-radius: 20px 20px 0px 0px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+  gap: 10px;
+}
+.box-password{
+  margin-bottom: 10px;
+  background-color: white;
+  border: 0;
+  border-bottom: 1px solid black;
+  height: 30px;
+  width: 300px;
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+}
+.box-email{
+    margin-bottom: 10px;
+    background-color: white;
+    border: 0;
+    border-bottom: 1px solid black;
+    height: 30px;
+    width: 300px;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+  }
+.button-login {
+  margin-top: 10%;
+  margin-left: 20%;
+  padding: 8px 60px;
+  border: 0;
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition-duration: 0.5s;
+}
+.button-login:hover {
+  scale: 105%;
+  cursor: pointer;
+}
+.login-forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.login-forms > a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 1.5px solid black;
+  width: 280px;
+  color: black;
+  font-weight: bold;
+  transition-duration: 0.3s;
+}
+.login-forms > a:hover {
+  scale: 105%;
+}
+.icons {
+  scale: 70%;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+.link {
+  color: black;
+}
+.link:hover {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+  }
+  main {
+    border-radius: 0px 20px 20px 0px;
+  }
+  .image {
+    background-image: url(images/image-card.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px 0px 0px 20px;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+  }
+}

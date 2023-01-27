@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login-card</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+<div class="image"></div>
+    <main>
+        <div class="form">
+            <form action="login.js" method="post" autocomplete="on">
+                <div>
+                    <p>
+                        <label for="email"><strong>Usuário</strong></label> <br>
+                        <input class="box-email" type="email" name="email" id="email" required autocomplete="email" minlength="30" maxlength="50" placeholder="example@gmail.com">
+                    </p>
+                </div>
+                    <p>
+                        <label for="senha"><strong>Senha</strong></label> <br>
+                        <input class="box-password" type="password" name="senha" id="senha" autocomplete="new-password" placeholder="**********" minlength="8" maxlength="16">
+                    </p>
+                    <p>
+                        <input class="button-login" type="submit" value="Entrar">
+                    </p>
+            </form>
+        </div>
+        <div class="container-2">
+            <div class="login-forms">
+                <a href="#"><img class="icons" src="images/icons-google.svg" alt="">Entrar com Google</a>
+                <a href="#"><img class="icons" src="images/icons-facebook.svg" alt="">Entrar com Facebook</a>
+            </div>
+            <div class="options">
+                <a class="link" href="#">Esqueceu a senha></a>
+                <a class="link" href="#">Cadastre-se></a>
+            </div>
+    </main>
+</body>
+</html>
